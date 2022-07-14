@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+
+/*MY CODE !!!!!!!!!!!!!*/
+
+html , body {
+  background-color: #252525;
+  height: 100%;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+}
+
+header img {
+  width: 30%;
+  margin-top: 20px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 8.5%;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 16px;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #ebebeb;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.info h2 {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  color: #43abc9;
+}
+
+.info p {
+  margin-top: 0.5%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #43abc9;
+}
+
+.info a {
+  text-decoration: none;
+  color: orange;
+}
+
+
+/*------footer------*/
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 48px;
+    margin-top: -3em;
+    background-color: #222;
+    padding-top: 10px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #ebebeb;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 10px;
+}
